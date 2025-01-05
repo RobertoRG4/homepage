@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning={true}>
-        <SpeedInsights />
         <Provider>{children}</Provider>
+        <SpeedInsights />
       </body>
     </html>
   );
