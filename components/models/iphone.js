@@ -5,7 +5,7 @@ import { useTexture } from "@react-three/drei";
 import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
 
-export default function Model(props) {
+export default function Iphone(props) {
   const { nodes, materials } = useGLTF("/iphone/scene-transformed.glb");
 
   const backgroundTexture = useTexture("/imagen.png");
@@ -20,7 +20,7 @@ export default function Model(props) {
 
   useFrame(() => {
     if (groupRef.current) {
-      groupRef.current.rotation.y += 0.002;
+      groupRef.current.rotation.y += 0.0008;
     }
   });
   return (

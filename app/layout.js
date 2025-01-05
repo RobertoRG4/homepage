@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata = {
   title: "Roberto RG - Homepage",
   description: "Oficial website.",
+  icons: {
+    icon: "/logo.jpg",
+  },
 };
 export default function RootLayout({ children }) {
   return (
