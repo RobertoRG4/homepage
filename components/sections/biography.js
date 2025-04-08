@@ -42,6 +42,18 @@ const Biography = memo(() => (
           </TimelineDescription>
         </TimelineContent>
       </TimelineItem>
+      <TimelineItem>
+        <TimelineConnector />
+        <TimelineContent>
+          <TimelineTitle color="#fff" fontSize="20px">
+            2025
+          </TimelineTitle>
+          <TimelineDescription color="#fff" fontSize="18px">
+            During my internship at AdeA MX, I worked on both backend and
+            frontend tasks as a full-stack developer, mainly using Java.
+          </TimelineDescription>
+        </TimelineContent>
+      </TimelineItem>
     </TimelineRoot>
   </Box>
 ));

@@ -3,7 +3,7 @@ import { Box, Text, Flex, Button, Image } from "@chakra-ui/react";
 import { SocialLinks } from "../links";
 import Link from "next/link";
 const Social = memo(() => (
-  <Box as="section" marginTop="10px" marginBottom="10px">
+  <Box as="section" marginTop="20px" marginBottom="40px">
     <Text as="h2" color="#fff" fontSize="28px" fontWeight="bold">
       My Links
     </Text>

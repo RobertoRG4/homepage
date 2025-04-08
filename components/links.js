@@ -5,6 +5,7 @@ export const InformationTechnologies = [
   { id: 4, name: "React", src: "react.png" },
   { id: 5, name: "TypeScript", src: "typescript.png" },
   { id: 6, name: "SQL", src: "sql.png" },
+  { id: 7, name: "Java", src: "java.png" },
 ];
 export const SocialLinks = [
   {

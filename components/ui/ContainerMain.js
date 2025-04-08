@@ -8,8 +8,9 @@ const ContainerMain = ({ children }) => {
       maxW={{ base: "100%", md: "5/12" }}
       zIndex={2}
       position="relative"
-      overflowY="scroll"
+      overflowY="auto"
       height="100vh"
+      scrollbar="hidden"
     >
       {children}
     </Container>
